@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor .box {
+    border: solid 1px black;
+}
+
+.foto {
+    grid-area: foto;
+}
+
+.nombre {
+    grid-area: nombre;
+}
+
+.info {
+    grid-area: info;
+}
+
+.educ {
+    grid-area: educ;
+}
+
+.portafolio {
+    grid-area: port;
+}
+
+.pie {
+    grid-area: pie;
+}
+
+.contenedor {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 25% 1fr;
+    grid-template-areas:
+        "foto nombre"
+        "info educ"
+        "port port"
+        "pie pie"
+}
