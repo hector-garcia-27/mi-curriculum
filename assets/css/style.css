@@ -7,6 +7,12 @@
     border: solid 1px black;
 }
 
+.contenedor .titulo {
+    padding: 10px;
+    text-align: center;
+    font-size:xx-large;
+}
+
 .foto {
     grid-area: foto;
 }
@@ -37,6 +43,45 @@
     background-color: black;
     color: white;
 }
+
+.contenedor .info .info-desc p {
+    padding: 10px;
+}
+
+.contenedor .info .info-desc li{
+    padding: 2px;
+}
+
+.contenedor .info .info-desc ul {
+    padding-left: 30px;
+}
+
+.contenedor .info .info-obj {
+    padding: 10px;
+}
+
+.contenedor .info .info-contacto {
+    padding: 30px;
+}
+
+.contenedor .info .info-contacto li, a, i {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor .info .info-software ul {
+    padding: 30px;
+}
+
+.contenedor .info .info-software li {
+    padding: 3px;
+}
+
+.contenedor .info .hab{
+    padding: 10px;
+}
+
 .educ {
     grid-area: educ;
 }
