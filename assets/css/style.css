@@ -11,14 +11,32 @@
     grid-area: foto;
 }
 
+.contenedor .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80px;
+    background-color: black;
+}
+
 .nombre {
     grid-area: nombre;
+}
+
+.contenedor .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
     grid-area: info;
 }
 
+.contenedor .info {
+    background-color: black;
+    color: white;
+}
 .educ {
     grid-area: educ;
 }
@@ -34,7 +52,7 @@
 .contenedor {
     display: grid;
     gap: 10px;
-    grid-template-columns: 25% 1fr;
+    grid-template-columns: 30% 1fr;
     grid-template-areas:
         "foto nombre"
         "info educ"
